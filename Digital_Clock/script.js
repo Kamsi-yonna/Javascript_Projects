@@ -3,7 +3,7 @@
 const hourE1 = document.getElementById('hour')
 const minuteE1 = document.getElementById('minutes')
 const secondE1 = document.getElementById('seconds')
-const ampm = document.getElementById('ampm')
+const ampmE1 = document.getElementById('ampm')
 
 //We create a function to get the data from our computer
 function updateClock(){
@@ -44,7 +44,7 @@ function updateClock(){
     hourE1.innerText = h;
     minuteE1.innerText = m;
     secondE1.innerText = s;
-    ampm.innerText = ampm;
+    ampmE1.innerText = ampm;
 
     //We can call out the seconds function to activate every second using the timeout function
     setTimeout(() => {
