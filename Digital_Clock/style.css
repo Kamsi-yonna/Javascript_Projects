@@ -49,3 +49,31 @@ h2{
     border-radius: 5%;
     box-shadow: 2px 2px 0 0 #fff, 4px 4px 0 0 #ee0524;
 }
+
+
+.clock .text {
+    margin-top: 10px;
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #d1d1d1;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0px;
+    width: 80px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+
+    margin-top: 10px;
+    height: 30px;
+    text-transform: uppercase;
+    background: #ee0524;
+
+    border: solid 2px #ee0524;
+    border-radius: 5%;
+    box-shadow:  none;
+}
