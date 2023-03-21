@@ -11,4 +11,3 @@ https://kamsi-yonna.github.io/Javascript_Projects/Digital_Clock/
 |-- | -- |
 |<img  align="left"  width="380px" src="https://kamsi-yonna.github.io/Javascript_Projects/Digital_Clock/preview.png">  | |
 
-/images/background.jpg
