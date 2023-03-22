@@ -1,37 +1,22 @@
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: 100vh;
-    background: #f4f4f4;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.form{
-    background: #cbc7ff ;
-    margin: 10px;
-    padding: 40px;
-    border: 2px solid #040042;
-    border-radius: 20px;
-    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #040042;
-}
-
-.input{
+.btn {
+    background: #040042;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-family: sans-serif ;
+    border: none;
     display: block;
     width: 100%;
-    box-sizing: border-box;
-    font-size: 20px;
-    color: #040042;
-    text-align: center;
-    padding: 5px;
-    
-    border: 2px solid #e67f7f;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px 0;
     border-radius: 5px;
-    margin-bottom: 20px;
+    box-shadow: 2px 2px 0 0 #cbc7ff, 3px 3px 0 0 #040042;
+    cursor: pointer;
+
+    transition: ease-in-out ;
 }
 
-.input::placeholder{
-    color: #cbc7ff;
+.btn:hover {
+    transform: translate();
+    box-shadow: 3px 3px 0 0 #cbc7ff, 5px 5px 0 0 #040042;
 }
