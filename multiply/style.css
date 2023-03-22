@@ -17,3 +17,21 @@ body {
     border-radius: 20px;
     box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #040042;
 }
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #040042;
+    text-align: center;
+    padding: 5px;
+    
+    border: 2px solid #e67f7f;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.input::placeholder{
+    color: #cbc7ff;
+}
