@@ -8,3 +8,12 @@ body {
     background: #f4f4f4;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.form{
+    background: #cbc7ff ;
+    margin: 10px;
+    padding: 40px;
+    border: 2px solid #040042;
+    border-radius: 20px;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #040042;
+}
