@@ -96,9 +96,7 @@ h2{
 }
 
 .clock div {
-    margin: 5px;
-    position: relative;
-}
+
 
 .clock span {
     display: flex;
@@ -124,12 +122,6 @@ h2{
     letter-spacing: 2px;
     color: #fff;
 
-    margin-top: 10px;
-    height: 30px;
-    text-transform: uppercase;
-    background: #ee0524;
-
-    border: solid 2px #ee0524;
     border-radius: 5%;
     box-shadow:  none;
 } */
