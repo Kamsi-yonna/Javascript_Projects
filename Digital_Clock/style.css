@@ -42,10 +42,6 @@ h1{
 
    
 }
-
-.clock .text{
-    font-size: 25px;
-    margin-top: 15px;
     background: #d1d1d1;
     height: 30px;
 }
@@ -81,10 +77,6 @@ h1{
     background-repeat: no-repeat;
 
     overflow: hidden;
-}
-
-h2{
-    height: 5vh;
     visibility: hidden;
     text-transform: uppercase;
     color: #ee0524;
@@ -104,17 +96,7 @@ h2{
     height: 80px;
     background: #fff;
     opacity: .8;
-    color: #1a1a1a;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    text-shadow: .4px .4px .5px #0f1721;
-
-    letter-spacing: 2px;
-    background: #d1d1d1;
-}
-
-.clock #ampm {
+    color: #1a1a1a;clock #ampm {
     position: absolute;
     bottom: 0px;
     width: 80px;
