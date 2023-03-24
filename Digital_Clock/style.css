@@ -39,8 +39,7 @@ h1{
    justify-content: center;
 
    border: solid 2px #f4f4f4;
-   border-radius: 5%;
-   box-shadow: 2px 2px 0 0 #fff, 4px 4px 0 0 #ee0524;
+
    
 }
 
@@ -93,10 +92,7 @@ h2{
     font-size: 45px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
 
-.clock {
-    display: flex;
 }
 
 .clock div {
@@ -116,16 +112,6 @@ h2{
     font-size: 50px;
     text-shadow: .4px .4px .5px #0f1721;
 
-    border: solid 2px #f4f4f4;
-    border-radius: 5%;
-    box-shadow: 2px 2px 0 0 #fff, 4px 4px 0 0 #ee0524;
-}
-
-.clock .text {
-    margin-top: 10px;
-    height: 30px;
-    font-size: 10px;
-    text-transform: uppercase;
     letter-spacing: 2px;
     background: #d1d1d1;
 }
