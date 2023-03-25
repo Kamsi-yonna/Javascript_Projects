@@ -14,7 +14,6 @@ body{
 
 .clock{
     display: flex;
-
 }
 
 h1{
@@ -37,6 +36,7 @@ h1{
    display: flex;
    text-align: center;
    color: #1a1a1a;
+   text-shadow: .4px .4px .5px #0f1721;
    align-items: center;
    opacity: .8;
    width: 100px;
@@ -46,7 +46,6 @@ h1{
    border: solid 2px #f4f4f4;
    border-radius: 5%;
    box-shadow: 2px 2px 0 0 #fff, 4px 4px 0 0 #ee0524;
-   
 }
 
 .clock .text{
@@ -73,83 +72,3 @@ h1{
     border-radius: 5%;
     box-shadow:  none;
 }
-
-
-/* body{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh; 
-    justify-content:center ;
-    background: url(images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    overflow: hidden;
-}
-
-h2{
-    height: 5vh;
-    visibility: hidden;
-    text-transform: uppercase;
-    color: #ee0524;
-    letter-spacing: 4px;
-    font-size: 45px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.clock {
-    display: flex;
-}
-
-.clock div {
-    margin: 5px;
-    position: relative;
-}
-
-.clock span {
-    display: flex;
-    width: 100px;
-    height: 80px;
-    background: #fff;
-    opacity: .8;
-    color: #1a1a1a;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    text-shadow: .4px .4px .5px #0f1721;
-
-    border: solid 2px #f4f4f4;
-    border-radius: 5%;
-    box-shadow: 2px 2px 0 0 #fff, 4px 4px 0 0 #ee0524;
-}
-
-.clock .text {
-    margin-top: 10px;
-    height: 30px;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background: #d1d1d1;
-}
-
-.clock #ampm {
-    position: absolute;
-    bottom: 0px;
-    width: 80px;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: #fff;
-
-    margin-top: 10px;
-    height: 30px;
-    text-transform: uppercase;
-    background: #ee0524;
-
-    border: solid 2px #ee0524;
-    border-radius: 5%;
-    box-shadow:  none;
-} */
