@@ -14,15 +14,6 @@ scoreEl.innerText = `score: ${score}`;
 
 questionEl.innerText = `What is ${num1} multiply by ${num2}?`;
 
-
-
-formEl.addEventListener("submit", () => {
-  const userAns = +inputEl.value;
-  if (userAns === correctAns) {
-    score++;
-    updateLocalStorage();
-  } else {
-    score--;
     updateLocalStorage();
   }
 });
