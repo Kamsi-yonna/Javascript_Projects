@@ -7,12 +7,7 @@ const inputEl = document.getElementById("input");
 
 const formEl = document.getElementById("form");
 
-const scoreEl = document.getElementById("score");
-
-let score = JSON.parse(localStorage.getItem("score"));
-
-if (!score) {
-  score = 0;
+const scoreEl
 }
 
 scoreEl.innerText = `score: ${score}`;
