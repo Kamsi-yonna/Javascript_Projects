@@ -2,14 +2,12 @@ body{
     margin: 0;
     background: linear-gradient(to right, lightblue, yellow);
     display: flex;
-    height: 100vh;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .container{
     background: aliceblue;
-    text-align: center;
     padding: 10px;
     width: 450px;
     margin: 5px;
@@ -19,14 +17,12 @@ body{
     background-color: green;
     color: aliceblue;
     padding: 10px 30px;
-    font-size: 16px;
     border-radius: 6px;
     cursor: pointer;
 
 }
 
 .btn:disabled{
-    cursor: not-allowed;
 }
 
 .anime-img{
@@ -35,11 +31,9 @@ body{
 }
 
 .anime-name{
-    margin: 20px;
     color: aliceblue;
     padding: 10px;
     border-radius: 6px;
-    font-size: 17px;
     font-weight: 600;
 }
 
