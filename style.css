@@ -1,13 +1,10 @@
 body{
     margin: 0;
-    background: linear-gradient(to right, lightblue, yellow);
-    align-items: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .container{
     background: aliceblue;
-    padding: 10px;
     margin: 5px;
 }
 
@@ -27,7 +24,6 @@ body{
 }
 
 .anime-name{
-    color: aliceblue;
     padding: 10px;
     border-radius: 6px;
 }
