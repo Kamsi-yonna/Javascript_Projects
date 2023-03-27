@@ -1,18 +1,15 @@
 body{
-    margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .container{
     background: aliceblue;
-    margin: 5px;
 }
 
 .btn{
     background-color: green;
     padding: 10px 30px;
     border-radius: 6px;
-    cursor: pointer;
 
 }
 
@@ -20,7 +17,6 @@ body{
 }
 
 .anime-img{
-    border-radius: 50%;
 }
 
 .anime-name{
