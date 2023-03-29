@@ -8,15 +8,11 @@ btnEl.addEventListener("click", async function () {
     btnEl.disabled = true;
     btnEl.innerText = "Loading...";
     amineNameEl.innerText = "Updating...";
-    animeImgEl.src = "spinner.svg";
     const response = await fetch("https://api.catboys.com/img");
     const data = await response.json();
     btnEl.disabled = false;
-    btnEl.innerText = "Get Anime";
     animeContainerEl.style.display = "block";
-    animeImgEl.src = data.url;
     amineNameEl.innerText = data.artist;
-  } catch (error) {
     console.log(error);
     btnEl.disabled = false;
     btnEl.innerText = "Get Anime";
