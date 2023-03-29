@@ -18,9 +18,7 @@ body{
     color: aliceblue;
     padding: 10px 30px;
     font-size: 16px;
-    margin-bottom: 30px;
     border-radius: 6px;
-    cursor: pointer;
 }
 
 .btn:disabled{
