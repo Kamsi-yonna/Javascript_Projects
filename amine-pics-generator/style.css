@@ -1,12 +1,10 @@
 body{
     margin: 0;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .container{
     background: aliceblue;
-    padding: 10px;
     margin: 5px;
 }
 
@@ -26,9 +24,7 @@ body{
 }
 
 .anime-name{
-    margin: 20px;
     background-color: green;
-    font-size: 17px;
     font-weight: 600;
 }
 
