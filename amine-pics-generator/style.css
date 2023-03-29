@@ -5,11 +5,9 @@ body{
 
 .container{
     background: aliceblue;
-    margin: 5px;
 }
 
 .btn{
-    color: aliceblue;
     font-size: 16px;
     border-radius: 6px;
 }
