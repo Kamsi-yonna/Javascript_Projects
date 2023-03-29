@@ -9,11 +9,7 @@ btnEl.addEventListener("click", async function () {
     btnEl.innerText = "Loading...";
     amineNameEl.innerText = "Updating...";
     const response = await fetch("https://api.catboys.com/img");
-    const data = await response.json();
-    btnEl.disabled = false;
-    animeContainerEl.style.display = "block";
     amineNameEl.innerText = data.artist;
-    console.log(error);
     btnEl.disabled = false;
     btnEl.innerText = "Get Anime";
     amineNameEl.innerText = "An error happened, please try again";
