@@ -34,3 +34,15 @@ button span{
     position: relative;
     z-index: 1;
 }
+
+button::before{
+    position: absolute;
+    background-color: #fffc34;
+    /* height: 20px; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: ease-in-out, width .5s, height .5s;
+    z-index: 1;
+
+
+}
