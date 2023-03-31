@@ -6,3 +6,26 @@ body{
     justify-content: center;
     background-color: #8a8ac2;
 }
+
+body{
+    /* margin: 0; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8a8ac2;
+}
+
+button{
+    font-size: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    color: #8a8ac2;
+    box-shadow: 1px 1px rgb(255, 255, 255), 4px 4px rgb(0, 0, 43);
+    text-shadow: 1px 1px rgb(0, 36, 90);
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+
+}
