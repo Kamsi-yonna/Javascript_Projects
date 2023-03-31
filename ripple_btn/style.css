@@ -7,21 +7,16 @@ body{
     background-color: #8a8ac2;
 }
 
-body{
-    /* margin: 0; */
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #8a8ac2;
-}
-
 button{
     font-size: 50px;
     padding: 20px;
+    box-sizing: border-box;
     font-family: sans-serif;
     letter-spacing: 5px;
+    border: 2px solid #001675;
+    border-radius: 20px;
     color: #8a8ac2;
+    background-color: #5ad860;
     box-shadow: 1px 1px rgb(255, 255, 255), 4px 4px rgb(0, 0, 43);
     text-shadow: 1px 1px rgb(0, 36, 90);
     position: relative;
@@ -36,13 +31,19 @@ button span{
 }
 
 button::before{
+    content:"";
     position: absolute;
     background-color: #fffc34;
+    /* width: 20px; */
     /* height: 20px; */
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 50%;
     transition: ease-in-out, width .5s, height .5s;
     z-index: 1;
+
+
 }
 
 button:hover::before{
