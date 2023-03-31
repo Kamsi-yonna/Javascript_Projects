@@ -43,6 +43,10 @@ button::before{
     transform: translate(-50%, -50%);
     transition: ease-in-out, width .5s, height .5s;
     z-index: 1;
+}
 
+button:hover::before{
+    width: 250px;
+    height: 250px;
 
 }
