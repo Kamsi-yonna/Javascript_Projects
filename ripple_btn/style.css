@@ -1,5 +1,5 @@
 body{
-    /* margin: 0; */
+    margin: 0;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@ body{
     background-color: #8a8ac2;
 }
 
-button{
+.btn{
     font-size: 50px;
     padding: 20px;
     box-sizing: border-box;
@@ -21,33 +21,34 @@ button{
     text-shadow: 1px 1px rgb(0, 36, 90);
     position: relative;
     overflow: hidden;
-    z-index: 2;
-
+    cursor: pointer;
 }
 
-button span{
+.btn span{
     position: relative;
     z-index: 1;
 }
 
-button::before{
+.btn::before{
     content:"";
     position: absolute;
     background-color: #fffc34;
-    /* width: 20px; */
-    /* height: 20px; */
-    left: 50%;
-    top: 50%;
+    left: var(--xPos);
+    top: var(--yPos);
+    width: 0px;
+    height: 0px;
+ 
     transform: translate(-50%, -50%);
     border-radius: 50%;
     transition: ease-in-out, width .5s, height .5s;
     z-index: 1;
-
-
 }
 
-button:hover::before{
-    width: 250px;
-    height: 250px;
+.btn:active{
+    transform: translate(4px, 5px);
+}
 
+.btn:hover::before{
+    width: 450px;
+    height: 450px;
 }
