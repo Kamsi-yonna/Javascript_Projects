@@ -7,3 +7,15 @@ body{
     background-color: #fff891;
     font-family: serif;
 }
+
+.container{
+    display: block;
+    padding: 10px 50px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #57f8b5;
+    border: solid 4px rgb(7, 44, 0);
+    border-radius: 5px;
+    box-shadow: 3px 3px #ffffff, 10px 10px #ff7300;
+}
