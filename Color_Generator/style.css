@@ -13,3 +13,16 @@ h1{
     color: #ff6200;
     text-shadow: 1px 1px 1px #1f006c;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #e1fcf1;
+    border-radius: 5px;
+    margin: 0 40px;
+    padding: 30px;
+    border: solid 1px rgb(7, 44, 0);
+    box-shadow: 3px 3px #ffffff, 5px 5px #ff7300;
+}
