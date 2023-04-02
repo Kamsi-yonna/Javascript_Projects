@@ -5,3 +5,11 @@ body{
     background-color: #f5f3cd;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #ff6200;
+    text-shadow: 1px 1px 1px #1f006c;
+}
