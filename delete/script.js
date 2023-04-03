@@ -10,9 +10,7 @@ function updateText() {
     careerIndex
   ].slice(0, characterIndex)}</h1>
     `;
-
-  if (characterIndex === careers[careerIndex].length) {
-    careerIndex++;
+ 
     characterIndex = 0;
   }
 
