@@ -20,7 +20,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   font-size: 30px;
-  text-align: center;
+  
  
   border: solid 4px green;
   color: green;
@@ -37,7 +37,7 @@ body {
   display: block;
   width: 100%;
   padding: 10px;
-  font-size: 20px;
+ 
   font-family: cursive;   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -48,6 +48,6 @@ body {
 }
 
 .score {
-  color: green;
+   
   text-align: right;
 }
