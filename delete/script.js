@@ -21,5 +21,3 @@ f characterIndex++;
   if (careerIndex === careers.length) {
     careerIndex = 0;
   }
-  setTimeout(updateText, 400);
-}
