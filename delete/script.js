@@ -18,6 +18,4 @@ f characterIndex++;
     characterIndex = 0;
   }
 
-  if (careerIndex === careers.length) {
-    careerIndex = 0;
-  }
+  
