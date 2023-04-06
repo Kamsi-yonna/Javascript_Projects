@@ -5,8 +5,7 @@ updateText();
 
 f characterIndex++;
   containerEl.innerHTML = `
-    <h1>I am ${careers[careerIndex].slice(0, 1) === "I" ? "an" : "a"} ${careers[
-    careerIndex
+    <h1>
   ].slice(0, characterIndex)}</h1>
     `;
 
