@@ -4,8 +4,6 @@ const careers = ["YouTuber", "Web Developer", "Freelancer", "Instructor"];
 
 let careerIndex = 0;
 
-let characterIndex = 0;
-
 updateText();
 
 function updateText() {
